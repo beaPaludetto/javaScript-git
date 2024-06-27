@@ -1,9 +1,11 @@
-const horario = 10;
+let idade = 15;
 
-if(horario >= 6 ){
- console.log("Bom diaaaaaa");
-}else if(horario >= 12 ){
- console.log("Boa tardeeeeee");
-}else{horario >= 18} {
-    console.log("Boa noiteeeeee");
+if(idade <= 12 ){
+ console.log("é criança burrona");
+}else if(idade <= 17 ){
+ console.log("é adolescente ne poura");
+}else if(idade <= 29){
+    console.log("é xóven");
+}else{
+    console.log("é veio ja");
 }

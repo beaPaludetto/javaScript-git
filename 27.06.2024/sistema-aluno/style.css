@@ -1,0 +1,33 @@
+body {
+    background: rgb(212, 190, 229);
+}
+
+.container {
+    max-width: 400px;
+    border: 3px solid rgb(114, 15, 114);
+    margin: 80px auto;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(237, 200, 237);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form.control input {
+
+    width: 100%;
+    max-width: 250px;
+    outline: none;
+}
+
+button{
+    height: 27px;
+    margin-left: 10px;
+    background: rgb(215, 183, 237);
+    color: aliceblue;
+}
+

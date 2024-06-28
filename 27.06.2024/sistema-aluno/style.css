@@ -1,11 +1,16 @@
+
+/*configurando cada botao e estilizando o sistema*/
 body {
     background: rgb(212, 190, 229);
 }
 
 .container {
     max-width: 400px;
+    /*bordas*/
     border: 3px solid rgb(114, 15, 114);
+    /*margem*/
     margin: 80px auto;
+    /*centralizar textos*/
     text-align: center;
     border-radius: 20px;
     background: rgb(237, 200, 237);
@@ -18,16 +23,21 @@ form{
 }
 
 .form.control input {
-
+    /*tamanho e largura*/
     width: 100%;
     max-width: 250px;
+    /*Efeito navegador*/
     outline: none;
 }
 
 button{
+    /*altura*/
     height: 27px;
+    /*Espaçamento*/
     margin-left: 10px;
+    /*cor de fundo*/
     background: rgb(215, 183, 237);
+    /*Cor das letras*/
     color: aliceblue;
 }
 
